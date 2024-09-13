@@ -1,0 +1,91 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+body {
+  background: #fff;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-width: 320px;
+  max-width: 1800px;
+  margin: 0 auto; }
+
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+  max-height: 400px;
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 8px; }
+
+.calendar {
+  border-radius: 8px; }
+
+.calendar__inner {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 114%;
+  position: relative; }
+
+.calendar__body {
+  width: 100%;
+  padding-bottom: 100%;
+  position: relative; }
+
+.calendar__body-inner {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: grid;
+  grid-template-columns: repeat(7, 40px);
+  grid-template-rows: repeat(7, 40px); }
+
+.calendar__body-wrapper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 9%; }
+
+.calendar__header {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 9%; }
+
+.calendar__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 300; }
+
+.calendar__item_day {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  color: rgba(102, 102, 102, 0.685);
+  margin-top: 20px; }
+
+.calendar__item_active {
+  background: #4324f7;
+  color: white; }
+
+.calendar__item_between-active {
+  background: rgba(68, 36, 247, 0.507);
+  color: white; }
+
+/*# sourceMappingURL=style.css.map */
