@@ -11,7 +11,7 @@ body {
   max-width: 1800px;
   margin: 0 auto; }
 
-.container {
+.section {
   margin: 0 auto;
   max-width: 1000px;
   max-height: 400px;
@@ -39,7 +39,6 @@ body {
   position: relative; }
 
 .calendar__body-inner {
-  position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
@@ -49,7 +48,6 @@ body {
   grid-template-rows: repeat(7, 40px); }
 
 .calendar__body-wrapper {
-  position: absolute;
   top: 0;
   bottom: 0;
   left: 0;

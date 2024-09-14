@@ -10,7 +10,7 @@ body {
     margin: 0 auto;
 }
 
-.container {
+.section {
     margin: 0 auto;
     max-width: 1000px;
     max-height: 400px;
@@ -40,7 +40,6 @@ body {
 }
 
 .calendar__body-inner {
-    position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
@@ -51,7 +50,6 @@ body {
 }
 
 .calendar__body-wrapper {
-    position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
